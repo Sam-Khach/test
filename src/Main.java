@@ -23,8 +23,7 @@ public class Main {
         Stack<Page> stack = new Stack<>();
         stack.push(new Page("link1", 9));
         stack.push(new Page("link2", 4));
-        stack.push(new Page("link3", 5));
-        stack.push(new Page("link4", 6));
+
         while (!stack.empty()) {
             System.out.println(stack.pop());
         }
